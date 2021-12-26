@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WorldSkillz</string>
+    <string name="enterstring">Войти в аккаунт</string>
+    <string name="hellostring">ПРИВЕТ</string>
+    <string name="logostring">TODO</string>
+    <string name="sometextstring">Наслаждайся отборочными. \n Будь внимателен. \n Делай хорoшо.</string>
+    <string name="toregstring">Еще нет аккаунта? Зарегистрируйтесь</string>
+    <string name="registertextstring">Тут будет \n регистрация</string>
+    <string name="Profilestring">Профиль</string>
+    <string name="stringsign_in">Sign in</string>
+    <string name="stringtvsign_in">Sign in</string>
+    <string name="registerstring">Register</string>
+    <string name="passwordstring">Пароль</string>
+    <string name="emailstring">Email</string>
+    <string name="logostring2">TODO</string>
+    <string name="menutextstring">Тут будет меню</string>
+    <string name="listentextstring">Тут будет \n прослушивание</string>
+    <string name="urwelcom">С возвращением, Пользователь!</string>
+</resources>

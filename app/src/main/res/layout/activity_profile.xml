@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334"
+    tools:context=".Profile">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="410dp"
+        android:layout_height="66dp"
+        android:background="#FF253334"
+        app:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975">
+
+        <ImageView
+            android:id="@+id/imgPers"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="350sp"
+            android:layout_marginTop="25sp"
+            app:srcCompat="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/imgMus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/nav"
+            android:onClick="onClick"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/MainTV"
+            android:layout_width="61dp"
+            android:layout_height="89dp"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/vectorlogo"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="79dp"
+        android:layout_height="72dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/vectorlogo" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="23dp"
+        android:layout_height="18dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/hamburger" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="104dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/ExitTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="270dp"
+        android:onClick="onClick"
+        android:text="exit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="356dp"
+        android:text="Эмиль"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="153dp"
+        android:layout_height="115dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="296dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sunset_d863fdd4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="170dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toTopOf="@+id/img4"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:srcCompat="@drawable/unknown_6" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="140dp"
+        android:text="11:00"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="158dp"
+        android:layout_height="118dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="77dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:srcCompat="@drawable/unknown_7" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="151dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="62dp"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toStartOf="@+id/img4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:srcCompat="@drawable/_2556223_paisagem15" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="156dp"
+        android:text="11:00"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="296dp"
+        android:text="11:00"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="172dp"
+        android:text="11:00"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
